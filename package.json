@@ -6,35 +6,24 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open",
-    "heroku-prebuild": "npm install --dev"
+    "start": "webpack-dev-server --mode development --open"
   },
-  "author": "valentin lemaire",
+  "author": "Jonas Schmedtmann",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "html-webpack-plugin": "^3.0.7",
-<<<<<<< HEAD
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
-<<<<<<< HEAD
     "webpack-dev-server": "^3.10.3"
-=======
-    "webpack-dev-server": "^3.10.3",
-    "webpack-merge": "^4.2.2"
->>>>>>> parent of 42e5a45... refresh
-=======
-    "webpack": "^4.2.0",
-    "webpack-cli": "^2.0.12",
-    "webpack-dev-server": "^3.1.1"
->>>>>>> 42e5a45b32312f27350a6cbc873b5ae258c761a8
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "babel-polyfill": "^6.26.0",
     "fractional": "^1.0.0",
+    "http-server": "^0.12.1",
     "uniqid": "^4.1.1"
   }
 }
