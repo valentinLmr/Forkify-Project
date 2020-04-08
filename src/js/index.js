@@ -8,6 +8,13 @@ import * as listView from './views/listView';
 import * as likesView from './views/likesView';
 import { elements, renderLoader, clearLoader } from './views/base';
 
+<<<<<<< HEAD
+=======
+if (process.env.NODE_ENV !== 'production') {
+  console.log('Looks like we are in development mode!');
+}
+
+>>>>>>> parent of 42e5a45... refresh
 /** Global state of the app
  * - Search object
  * - Current recipe object

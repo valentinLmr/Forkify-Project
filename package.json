@@ -18,7 +18,12 @@
     "html-webpack-plugin": "^3.0.7",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
+<<<<<<< HEAD
     "webpack-dev-server": "^3.10.3"
+=======
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+>>>>>>> parent of 42e5a45... refresh
   },
   "dependencies": {
     "axios": "^0.18.1",
