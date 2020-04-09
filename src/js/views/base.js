@@ -18,7 +18,7 @@ export const renderLoader = parent => {
     const loader = `
         <div class="${elementStrings.loader}">
             <svg>
-                <use xlink:href="#icon-cw"></use>
+                <use href="img/icons.svg#icon-cw"></use>
             </svg>
         </div>
     `;
